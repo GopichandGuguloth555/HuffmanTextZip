@@ -134,7 +134,7 @@ void Huffman::compress(const string& inputFile, const string& outputFile) {
     double compressedSize = comp.tellg();
     orig.close(); comp.close();
 
-    cout << "Compression time: " << timeTaken << " seconds" << endl;
+    cout << "Compression time: " << timeTaken << " seconds"  << endl;
     cout << "Compression ratio: " << (compressedSize / originalSize) << endl;
 }
 
